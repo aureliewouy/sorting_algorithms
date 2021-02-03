@@ -13,7 +13,7 @@ void shell_sort(int *array, size_t size)
 	size_t outer, inner;
 	int valueToInsert;
 
-	if (array != NULL && size >= 1)
+	if (array != NULL && size > 1)
 	{
 		/* Calculate interval*/
 		while (interval < (size / 3))
